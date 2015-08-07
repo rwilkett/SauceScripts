@@ -1,0 +1,133 @@
+#-stageNoAkamai
+#<hw.configname>-stageNoAkamai
+#(IT MAINTAINED...READONLY)
+
+# (update log @ bottom of config)
+127.0.0.1 localhost
+
+
+# basil-http
+10.0.29.5 workout.bodybuilding.com
+
+# bay-http.body.stage
+10.0.29.1 videos.bodybuilding.com videocdn.bodybuilding.com
+
+# Carob/Dill (NO Akamai - use this when perf testing)
+10.0.29.2 www.bodybuilding.com stage.bodybuilding.com cart.bodybuilding.com checkout.bodybuilding.com 
+
+# Carob/Dill (Akamai enabled - use this when functional testing)
+# Note: this can change - see notes below
+#69.192.110.118 www.bodybuilding.com
+#
+
+# catalog 
+10.0.29.23 catalog.bodybuilding.com
+
+# chive-http.body.stage
+10.0.29.3 forum.bodybuilding.com
+
+# clove-http.body.stage
+10.0.29.5 bodyspace.bodybuilding.com services.bodybuilding.com calendar.bodybuilding.com
+
+# clove-imagecdn.body.stage
+10.0.29.6 imagecdn.bodybuilding.com 
+
+# clove-http-groups.body.stage
+10.0.29.37 groups.bodybuilding.com
+
+# clove-http-reviews.body.stage
+10.0.29.38 reviews.bodybuilding.com
+
+# clove-http-my.body.stage
+10.0.29.39 my.bodybuilding.com
+
+# dill-http.body.stage
+10.0.29.2 teenbodybuilding.com
+10.0.29.2 www.bodybuilders.com bodybuilders.com www.teenbodybuilding.com
+10.0.29.2 newsletter.bodybuilding.com bodybuilding.com webcast.bodybuilding.com
+10.0.29.2 wiki.bodybuilding.com careers.bodybuilding.com bodybydesignbook.com www.bodybydesignbook.com
+10.0.29.2 www.protien.com chat.bodybuilding.com
+10.0.29.2 search.bodybuilding.com help.bodybuilding.com search3.bodybuilding.com athletes.com www.athletes.com
+
+# dill-http-contest.body.stage
+10.0.29.40 contest.bodybuilding.com
+
+# ginger-http.body.stage
+10.0.29.7	streaming.bodybuilding.com
+
+# thyme-http.body.stage (NO Akamai - use this when perf testing)
+10.0.29.12 artifacts.bbcomcdn.com
+10.0.29.4 assets.bodybuilding.com
+10.0.29.12 blog.bbcomcdn.com bodyspace.bbcomcdn.com common.bbcomcdn.com content.bbcomcdn.com
+10.0.29.12 store.bbcomcdn.com trackers.bbcomcdn.com videos.bbcomcdn.com www.bbcomcdn.com
+10.0.29.12 forum.bbcomcdn.com
+
+# thyme-http.body.stage (Akamai enabled - use this when functional testing)
+# Note: these can *all* change - see notes below
+#69.192.110.118 artifacts.bbcomcdn.com
+#69.192.110.118 assets.bodybuilding.com
+#69.192.110.118 blog.bbcomcdn.com bodyspace.bbcomcdn.com content.bbcomcdn.com
+#69.192.110.118 forum.bbcomcdn.com trackers.bbcomcdn.com videos.bbcomcdn.com www.bbcomcdn.com
+# These can change, and are *different* than the above entries due to SSL, see note below
+#69.192.110.118 store.bbcomcdn.com common.bbcomcdn.com
+
+# wasabi.body.stage
+10.0.60.52 admin
+
+# rosemary-http.body.stage
+10.0.29.34 blog.bodybuilding.com
+
+# nutmeg-http.body.stage
+10.0.29.22 api.bodybuilding.com gain-api.bodybuilding.com 
+
+# jasmine-http.body.stage
+10.0.29.19 charts.bodybuilding.com
+
+# hops-http.body.stage
+10.0.29.11 maintenance.bodybuilding.com
+
+# No stage server available! 206.207.84.199 ad.bodybuilding.com ads.bodybuilding.com
+
+# Global entries
+
+#adb 8/20/2014 updated globals
+10.0.29.2 ae.bodybuilding.com af.bodybuilding.com ag.bodybuilding.com ai.bodybuilding.com al.bodybuilding.com am.bodybuilding.com
+10.0.29.2 and.bodybuilding.com ar.bodybuilding.com as.bodybuilding.com at.bodybuilding.com au.bodybuilding.com aw.bodybuilding.com az.bodybuilding.com
+10.0.29.2 ba.bodybuilding.com bb.bodybuilding.com be.bodybuilding.com bf.bodybuilding.com bg.bodybuilding.com bh.bodybuilding.com
+10.0.29.2 bm.bodybuilding.com bn.bodybuilding.com bo.bodybuilding.com br.bodybuilding.com bs.bodybuilding.com bt.bodybuilding.com
+10.0.29.2 bw.bodybuilding.com by.bodybuilding.com bz.bodybuilding.com ca.bodybuilding.com ch.bodybuilding.com ck.bodybuilding.com cl.bodybuilding.com
+10.0.29.2 cn.bodybuilding.com co.bodybuilding.com cr.bodybuilding.com cy.bodybuilding.com cz.bodybuilding.com de.bodybuilding.com
+10.0.29.2 dk.bodybuilding.com dm.bodybuilding.com do.bodybuilding.com ec.bodybuilding.com ee.bodybuilding.com eg.bodybuilding.com
+10.0.29.2 es.bodybuilding.com fi.bodybuilding.com fj.bodybuilding.com fo.bodybuilding.com fr.bodybuilding.com gd.bodybuilding.com
+10.0.29.2 ge.bodybuilding.com gf.bodybuilding.com gi.bodybuilding.com gl.bodybuilding.com gp.bodybuilding.com gr.bodybuilding.com
+10.0.29.2 gt.bodybuilding.com gu.bodybuilding.com gy.bodybuilding.com hk.bodybuilding.com hn.bodybuilding.com hr.bodybuilding.com
+10.0.29.2 ht.bodybuilding.com hu.bodybuilding.com id.bodybuilding.com ie.bodybuilding.com il.bodybuilding.com in.bodybuilding.com
+10.0.29.2 iq.bodybuilding.com is.bodybuilding.com it.bodybuilding.com jm.bodybuilding.com jo.bodybuilding.com jp.bodybuilding.com
+10.0.29.2 kg.bodybuilding.com kh.bodybuilding.com km.bodybuilding.com kn.bodybuilding.com kr.bodybuilding.com kw.bodybuilding.com
+10.0.29.2 ky.bodybuilding.com kz.bodybuilding.com la.bodybuilding.com lb.bodybuilding.com lc.bodybuilding.com li.bodybuilding.com
+10.0.29.2 lk.bodybuilding.com lt.bodybuilding.com lu.bodybuilding.com lv.bodybuilding.com ly.bodybuilding.com ma.bodybuilding.com mc.bodybuilding.com md.bodybuilding.com
+10.0.29.2 me.bodybuilding.com ml.bodybuilding.com mo.bodybuilding.com mp.bodybuilding.com mq.bodybuilding.com ms.bodybuilding.com
+10.0.29.2 mt.bodybuilding.com mu.bodybuilding.com mv.bodybuilding.com mx.bodybuilding.com mys.bodybuilding.com na.bodybuilding.com nc.bodybuilding.com ng.bodybuilding.com
+10.0.29.2 ni.bodybuilding.com nl.bodybuilding.com no.bodybuilding.com nz.bodybuilding.com om.bodybuilding.com pa.bodybuilding.com pe.bodybuilding.com
+10.0.29.2 pf.bodybuilding.com ph.bodybuilding.com pk.bodybuilding.com pl.bodybuilding.com pr.bodybuilding.com pt.bodybuilding.com
+10.0.29.2 pw.bodybuilding.com py.bodybuilding.com qa.bodybuilding.com re.bodybuilding.com ro.bodybuilding.com rs.bodybuilding.com
+10.0.29.2 ru.bodybuilding.com sa.bodybuilding.com sb.bodybuilding.com sc.bodybuilding.com se.bodybuilding.com sg.bodybuilding.com
+10.0.29.2 si.bodybuilding.com sk.bodybuilding.com sm.bodybuilding.com sn.bodybuilding.com so.bodybuilding.com sr.bodybuilding.com
+10.0.29.2 st.bodybuilding.com sv.bodybuilding.com sz.bodybuilding.com tc.bodybuilding.com th.bodybuilding.com tj.bodybuilding.com
+10.0.29.2 tl.bodybuilding.com tr.bodybuilding.com tt.bodybuilding.com tw.bodybuilding.com tz.bodybuilding.com ua.bodybuilding.com ug.bodybuilding.com uk.bodybuilding.com
+10.0.29.2 uy.bodybuilding.com uz.bodybuilding.com vc.bodybuilding.com vg.bodybuilding.com vn.bodybuilding.com vu.bodybuilding.com
+10.0.29.2 ws.bodybuilding.com ye.bodybuilding.com za.bodybuilding.com zm.bodybuilding.com zw.bodybuilding.com vi.bodybuilding.com
+
+10.0.60.52   odysseus.bodybuilding.com admin.bodybuilding.com wwwprod.bodybuilding.com #stage
+
+#adb 4/26/2012 - updated to include global + impersonate user entries for CSC
+#adb 6/26/2012 - updated with new ip's for contest,my,reviews,groups;updated impersonate user entries to be stage-csr instead of qa2-csr;
+#		         copy/paste with mods of current liger stage environment hostfile from http://confluence/display/liger/Stage+Environment
+#adb 8/31/2012 - updated akamai ip address per the instructions at: http://confluence/display/liger/Stage+Environment
+#adb 9/5/2012 - updating with hostfile @ http://confluence/display/liger/Stage+Environment
+#adb 9/6/2012 - updated wasabi (admin) ip
+#adb 2/26/2013 - added transport.bodybuilding.com for tokenization testing
+#adb 7/23/2013 - removed impersonate user entries per mike hlavac
+#                removed second transport entry (184.169.138.30 transport.bodybuilding.com)
+#adb 10/9/2013 - added localhost reference so that hostwatcher auto config will work <fingers crossed> with the browsermob proxy
+#dcv 10/1/2014 - updated stage transport IP after rebuilding the environment. It went from 50.18.185.87 to 184.169.182.119
