@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "apistage.bodybuilding.com api.bodybuilding.com" >> /etc/hosts
+echo "206.207.84.200 api.bodybuilding.com" >> /etc/hosts
